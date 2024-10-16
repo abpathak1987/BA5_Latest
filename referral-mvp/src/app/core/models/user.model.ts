@@ -8,6 +8,7 @@ export interface User {
     lastName: string;
     role: 'referrer' | 'client' | 'admin';
     company?: string; // Optional: for clients
+    companySize?: string; // Optional: for clients
     jobTitle?: string;
     industry?: string;
     createdAt: Date;
